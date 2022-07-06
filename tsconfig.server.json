@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "declaration": true,
+    "paths": {
+      "*": ["node_modules/*", "types/*"]
+    }
+  },
+  "include": [
+    "server/**/*",
+    "types"
+  ]
+}
